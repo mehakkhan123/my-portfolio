@@ -17,7 +17,7 @@ export default function Header() {
         <header className='w-full bg-gray-100 max-w-[1500px] flex md:flex-row justify-between items-center px-6'>
             <h1 className='text-yellow-500 text-2xl font-bold'>My <span className='text-black'>Portfolio</span></h1>
             <Sheet open={open} onOpenChange={setOpen}>
-              <SheetTrigger className='md:hidden p-3'>
+              <SheetTrigger className='md:hidden py-3'>
                 {open?<SheetClose/>:<Menu/>}
               </SheetTrigger>
               <SheetContent className='bg-white border-none'>
