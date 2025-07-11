@@ -31,7 +31,7 @@ export default function Header() {
                             <SheetDescription className="sr-only">Main navigation menu</SheetDescription>
                             </SheetHeader>
 
-                                <ul className='uppercase text-center px-3'>
+                                <ul className='uppercase text-center px-3 '>
                     <li className='p-3 border-b-2 border-b-yellow-500' onClick={() => setOpen(false)}><Link href={"/"}>Home</Link></li>
                     <li className='p-3 border-b-2 border-b-yellow-500' onClick={() => setOpen(false)}><Link href={""}>About</Link></li>
                     <li className='p-3 border-b-2 border-b-yellow-500' onClick={() => setOpen(false)}><Link href={""}>Projects</Link></li>
@@ -41,10 +41,10 @@ export default function Header() {
               </SheetContent>
             </Sheet>
                 <ul className='hidden md:flex flex-row gap-5 font-medium'>
-                    <li className='p-3 hover:text-yellow-500 text-lg transition-all'><Link href={"/"}>Home</Link></li>
-                    <li className='p-3 hover:text-yellow-500 text-lg transition-all'><Link href={""}>About</Link></li>
-                    <li className='p-3 hover:text-yellow-500 text-lg transition-all'><Link href={""}>Projects</Link></li>
-                    <li className='p-3 hover:text-yellow-500 text-lg transition-all'><Link href={""}>Contact</Link></li>
+                    <li className='p-3 hover:text-yellow-500 text-lg transition-all duration-300 ease-in-out'><Link href={"/"}>Home</Link></li>
+                    <li className='p-3 hover:text-yellow-500 text-lg transition-all duration-300 ease-in-out'><Link href={""}>About</Link></li>
+                    <li className='p-3 hover:text-yellow-500 text-lg transition-all duration-300 ease-in-out'><Link href={""}>Projects</Link></li>
+                    <li className='p-3 hover:text-yellow-500 text-lg transition-all duration-300 ease-in-out'><Link href={""}>Contact</Link></li>
                 </ul>
                 </nav>
   
