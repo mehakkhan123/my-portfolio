@@ -5,8 +5,16 @@ import { BiLogoTypescript } from "react-icons/bi";
 import { FaReact } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { SiShadcnui } from "react-icons/si";
+import type { IconType } from "react-icons";
 
-export const skills =[
+interface Skills {
+    id:number,
+    name:string,
+    detail:string,
+    icon:IconType
+}
+
+export const skills:Skills[] =[
     {
         id:1,
         name:"HTML",
