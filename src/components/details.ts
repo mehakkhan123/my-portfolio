@@ -8,10 +8,10 @@ import { SiShadcnui } from "react-icons/si";
 import type { IconType } from "react-icons";
 
 interface Skills {
-    id:number,
-    name:string,
-    detail:string,
-    icon:IconType
+    id:number;
+    name:string;
+    detail:string;
+    icon:IconType;
 }
 
 export const skills:Skills[] =[
