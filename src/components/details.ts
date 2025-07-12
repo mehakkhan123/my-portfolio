@@ -5,6 +5,10 @@ import { BiLogoTypescript } from "react-icons/bi";
 import { FaReact } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { SiShadcnui } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+
 import type { IconType } from "react-icons";
 
 interface Skills {
@@ -12,6 +16,12 @@ interface Skills {
     name:string;
     detail:string;
     icon:IconType;
+}
+
+interface SocialIcons {
+    id:number;
+    icon:IconType;
+    link:string
 }
 
 export const skills:Skills[] =[
@@ -58,4 +68,22 @@ export const skills:Skills[] =[
         icon:SiShadcnui
     }
 
+]
+
+
+export const socialIcons:SocialIcons[] = [{
+    id:1,
+    icon:FaGithub,
+    link:"https://github.com/mehakkhan123"
+},
+{
+    id:2,
+    icon:FaLinkedinIn,
+    link:"https://www.linkedin.com/in/mehak-khan-b5a1ab2b8/"
+},
+{
+    id:3,
+    icon:MdEmail,
+    link:"mailto: mahekkhan284@gmail.com"
+}
 ]

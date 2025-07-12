@@ -5,7 +5,7 @@ import { skills } from './details';
 export default function Skills() {
     
   return (
-    <div className='flex flex-col w-full items-center p-6 max-w-[1536px] gap-4 text-center'>
+    <div className='flex flex-col w-full items-center p-6 max-w-[1536px] gap-4 text-center 2xl:shadow-lg'>
         <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold text-gray-700'>Skills</h1>
         <p className='text-gray-500 text-md md:text-lg lg:text-3xl px-7 sm:px-24 md:px-0'>I specialize in building modern, responsive, and high-performance web applications using a robust set of front-end technologies. My core competencies include:</p>
         <div className='flex flex-col items-center justify-center sm:flex-row gap-5 flex-wrap'>
