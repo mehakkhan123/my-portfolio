@@ -12,7 +12,7 @@ export default function AboutPage() {
           </p>
           
           
-          <p className='text-gray-500 text-md md:text-lg lg:text-3xl p-7'>
+          <p className='text-gray-500 text-md md:text-lg lg:text-3xl px-7'>
             Beyond the code, I hold a B.Com degree from Karachi University, which has equipped me with a strong understanding of problem-solving and critical thinking – skills I readily apply to my development work. I&apos;m excited to collaborate on innovative projects and contribute to a team where I can grow and make a tangible impact.
           </p>
           
