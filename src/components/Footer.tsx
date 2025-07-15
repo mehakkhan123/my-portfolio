@@ -30,7 +30,7 @@ export default function Footer() {
 
       <div className='flex flex-col gap-2 items-center md:items-start'>
         <h2 className='font-semibold text-gray-600'>Let&apos;s build something great</h2>
-        <Link href={"/projects"}>
+        <Link href={"/contact"}>
                 <button className='bg-yellow-500 py-2 px-3 rounded-3xl text-white font-medium border-2 border-transparent hover:border-2 hover:border-yellow-500 hover:bg-white hover:text-yellow-500 cursor-pointer transition-all duration-300 ease-in-out'>Get in Touch</button>
                 </Link>
       </div>
