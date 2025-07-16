@@ -20,7 +20,7 @@ export default function ProjectsPage() {
                                   <div key={item.id} className='flex flex-col items-center justify-start bg-gray-50 rounded-lg shadow-md max-w-[300px] min-h-[650px] transition-all duration-700 ease-in-out gap-3 p-5'>
                                     <Image src={item.image} alt={item.name} width={600} height={600}/>
                                       <h1 className='text-yellow-500 text-xl text-center font-bold tracking-wider'>{item.name}</h1>
-                                      <p className='text-gray-700'>{item.detail}</p>
+                                      <p className='text-gray-700 flex-grow'>{item.detail}</p>
                                       <ul className='flex w-full justify-start gap-3 flex-wrap'>
                                         {item.skillsUsed.map((skill,index)=>{
                                             return (
