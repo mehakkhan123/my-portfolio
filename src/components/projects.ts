@@ -40,7 +40,7 @@ export const projects:Projects[] =[
         name:"Color Picker App",
         detail:"Proficient in structuring web content semantically and accessibly, laying the foundation for robust and well-organized web pages.",
         skillsUsed:["HTML","CSS","JavaScript"],
-        image:"/images/todo.jpg",
+        image:"/images/colorpicker.avif",
         githubLink:"https://github.com/mehakkhan123/colorpicker-app.git",
         vercelLink:"https://colorpicker-app-eta.vercel.app/"
     },
