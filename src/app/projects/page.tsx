@@ -12,14 +12,14 @@ export default function ProjectsPage() {
           <h1 className='text-3xl pb-2 md:text-4xl lg:text-5xl font-bold text-gray-700'>My Projects</h1>
           <hr className='w-full h-1  border-t-yellow-400 bg-yellow-400'/>
 
-          <div className='flex flex-col items-center justify-center sm:flex-row gap-5 flex-wrap'>
+          <div className='flex flex-col items-center pt-8 justify-center sm:flex-row gap-5 flex-wrap'>
                       {
                           projects.map((item)=>{
                             
                               return(
-                                  <div key={item.id} className='flex flex-col items-center justify-center bg-gray-50 rounded-lg shadow-md max-w-[300px] transition-all duration-700 ease-in-out p-5 gap-3'>
+                                  <div key={item.id} className='flex flex-col items-center justify-between bg-gray-50 rounded-lg shadow-md max-w-[300px] min-h-[650px] transition-all duration-700 ease-in-out gap-3 p-5 hover:border-gray-300'>
                                     <Image src={item.image} alt={item.name} width={600} height={600}/>
-                                      <h1 className='text-yellow-500 text-xl font-bold tracking-wider'>{item.name}</h1>
+                                      <h1 className='text-yellow-500 text-xl text-center font-bold tracking-wider'>{item.name}</h1>
                                       <p className='text-gray-700'>{item.detail}</p>
                                       <ul className='flex w-full justify-start gap-3 flex-wrap'>
                                         {item.skillsUsed.map((skill,index)=>{
