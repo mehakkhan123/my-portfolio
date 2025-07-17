@@ -9,7 +9,7 @@ export default function ContactPage() {
           <p className='text-gray-500 text-center text-md md:text-lg lg:text-3xl p-7'>Ready to get started? Feel free to reach out through the contact form, and let&apos;s  embark on a journey of innovation and success.
           </p>
 
-          <form action="mailto: mahekkhan284@gmail.com" className='flex flex-col items-start gap-3 shadow-lg w-full max-w-[900px] p-8'>
+          <form action="" className='flex flex-col items-start gap-3 shadow-lg w-full max-w-[900px] p-8'>
             <div className='flex flex-col sm:flex-row gap-3 w-full'>
               <div className='flex flex-col w-full'>  {/* name input */}
                 <label>Your Name</label>
