@@ -9,8 +9,8 @@ export default function ContactPage() {
           <p className='text-gray-500 text-center text-md md:text-lg lg:text-3xl p-7'>Ready to get started? Feel free to reach out through the contact form, and let&apos;s  embark on a journey of innovation and success.
           </p>
 
-          <form action="mahekkhan284@gmail.com" className='flex flex-col items-start shadow-lg w-full max-w-[900px] p-8'>
-            <div className='flex flex-col sm:flex-row gap-0 w-full sm:gap-3.5'>
+          <form action="mailto: mahekkhan284@gmail.com" className='flex flex-col items-start gap-3 shadow-lg w-full max-w-[900px] p-8'>
+            <div className='flex flex-col sm:flex-row gap-3 w-full'>
               <div className='flex flex-col w-full'>  {/* name input */}
                 <label>Your Name</label>
                 <input type="text" className='border border-gray-300 p-2' />
@@ -22,12 +22,16 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <label>Subject</label>
-            <input type="text" className='border border-gray-300 w-full p-2' />
+            <div className='flex flex-col w-full'>
+              <label>Subject</label>
+            <input type="text" className='border border-gray-300 p-2' />
+            </div>
 
-            <label>Message</label>
-            <textarea className='border border-gray-300 w-full min-h-[200px] p-1'></textarea>
+            <div className='flex flex-col w-full'>
+              <label>Message</label>
+            <textarea className='border border-gray-300 min-h-[200px] p-1'></textarea>
 
+            </div>
             <button type="submit" className='bg-yellow-500 py-2 px-3 rounded-3xl text-white font-medium border-2 border-transparent hover:border-2 hover:border-yellow-500 hover:bg-white hover:text-yellow-500 cursor-pointer transition-all duration-300 ease-in-out'>Send Message</button>
 
           </form>
