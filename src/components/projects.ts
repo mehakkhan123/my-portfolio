@@ -11,7 +11,7 @@ export const projects:Projects[] =[
     {
         id:1,
         name:"Simple Calculator",
-        detail:"Proficient in structuring web content semantically and accessibly, laying the foundation for robust and well-organized web pages.",
+        detail:"A Calculator App that provides basic arithmetic functions. Developed using HTML, CSS, and JavaScript, it offers a familiar interface and is fully responsive to adapt to various screen dimensions.",
         skillsUsed:["HTML","CSS","JavaScript"],
         image:"/images/calculator.jpg",
         githubLink:"https://github.com/mehakkhan123/simple-calculator.git",
@@ -20,7 +20,7 @@ export const projects:Projects[] =[
     {
         id:2,
         name:"Counter App",
-        detail:"Proficient in structuring web content semantically and accessibly, laying the foundation for robust and well-organized web pages.",
+        detail:"A simple Counter App demonstrating basic state management. Built with Next.js, React.js, and Tailwind CSS, it allows users to increment and decrement a value and features a responsive design for consistent performance on any device.",
         skillsUsed:["HTML","Tailwind CSS","TypeScript","React", "Next.js"],
         image:"/images/todo.jpg",
         githubLink:"https://github.com/mehakkhan123/counter_app_nextjs.git",
@@ -29,7 +29,7 @@ export const projects:Projects[] =[
     {
         id:3,
         name:"To-do App",
-        detail:"Proficient in structuring web content semantically and accessibly, laying the foundation for robust and well-organized web pages.",
+        detail:"A Todo App built with HTML, CSS, and JavaScript. It lets you add, track, and delete tasks. This app features a responsive design, making it work well across all device sizes.",
         skillsUsed:["HTML","CSS","JavaScript"],
         image:"/images/todo.jpg",
         githubLink:"https://github.com/mehakkhan123/todo-app.git",
@@ -38,7 +38,7 @@ export const projects:Projects[] =[
     {
         id:4,
         name:"Color Picker App",
-        detail:"Proficient in structuring web content semantically and accessibly, laying the foundation for robust and well-organized web pages.",
+        detail:"A Color Picker App designed to help users select colors and instantly copy their hex codes. Crafted with HTML, CSS, and JavaScript, this tool boasts a responsive interface that adjusts perfectly to different screen sizes.",
         skillsUsed:["HTML","CSS","JavaScript"],
         image:"/images/colorpicker.avif",
         githubLink:"https://github.com/mehakkhan123/colorpicker-app.git",
@@ -47,7 +47,7 @@ export const projects:Projects[] =[
     {
         id:5,
         name:"Personal Portfolio Website",
-        detail:"Proficient in structuring web content semantically and accessibly, laying the foundation for robust and well-organized web pages.",
+        detail:"Welcome to my personal portfolio website, a digital showcase of my skills, projects, and passion for web development. Designed with a clean, modern aesthetic and built using HTML, CSS, and JavaScript, this site serves as a central hub to explore my work and learn more about my expertise.",
         skillsUsed:["HTML","CSS"],
         image:"/images/todo.jpg",
         githubLink:"https://github.com/mehakkhan123/personalPortfolioWebsite.git",
@@ -55,8 +55,8 @@ export const projects:Projects[] =[
     },
     {
         id:6,
-        name:"Dynamic Resume Builder App",
-        detail:"Proficient in structuring web content semantically and accessibly, laying the foundation for robust and well-organized web pages.",
+        name:"Static Interactive Resume",
+        detail:"A Static Interactive Resume presenting my professional profile. This project, built with HTML, CSS, and JavaScript, includes interactive elements like a hide/show skills button and is fully responsive to ensure optimal viewing on any screen.",
         skillsUsed:["HTML","CSS","JavaScript"],
         image:"/images/todo.jpg",
         githubLink:"https://github.com/mehakkhan123/hackathon_ResumeBuilder.git",
@@ -65,7 +65,7 @@ export const projects:Projects[] =[
     {
         id:7,
         name:"Personal Portfolio Website",
-        detail:"Proficient in structuring web content semantically and accessibly, laying the foundation for robust and well-organized web pages.",
+        detail:"A personal portfolio website meticulously crafted with Next.js, React.js, and Tailwind CSS. It highlights my frontend expertise and offers a fast, visually appealing, and highly responsive experience tailored for all devices.",
         skillsUsed:["HTML","Tailwind CSS", "TypeScript", "React","Next.js","Shadcn"],
         image:"/images/todo.jpg",
         githubLink:"https://github.com/mehakkhan123/my-portfolio.git",
@@ -74,7 +74,7 @@ export const projects:Projects[] =[
     {
         id:8,
         name:"Simple Multi Page Website",
-        detail:"Proficient in structuring web content semantically and accessibly, laying the foundation for robust and well-organized web pages.",
+        detail:"A simple multi-page website serving as an educational platform example. Built with Next.js, React.js, and Tailwind CSS, it features clear navigation, a compelling hero section, and a responsive design that ensures a great user experience on any device.",
         skillsUsed:["HTML","Tailwind CSS","React", "Next.js", "Shadcn"],
         image:"/images/todo.jpg",
         githubLink:"https://github.com/mehakkhan123/milestone2-assignment-tailwind.git",
