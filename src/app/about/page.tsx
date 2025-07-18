@@ -2,6 +2,7 @@ import React from 'react'
 import Skills from '@/components/Skills'
 
 export default function AboutPage() {
+  
   return (
     <div className='flex flex-col items-center'>
         <div className='flex flex-col items-center w-full p-6 max-w-[1536px] bg-gray-50'>
