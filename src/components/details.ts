@@ -84,6 +84,6 @@ export const socialIcons:SocialIcons[] = [{
 {
     id:3,
     icon:MdEmail,
-    link:"mailto: mahekkhan284@gmail.com"
+    link:"mailto: mehakkhan1210@gmail.com"
 }
 ]
